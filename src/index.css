@@ -1,0 +1,20 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body 
+{
+  overflow-x: hidden;
+  background: rgb(19, 19, 19); 
+  color: rgb(224, 224, 224);
+  background-color: #171717;
+  background-color: #000000;
+  background-image: url("https://www.transparenttextures.com/patterns/outlets.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  font-family: "Oswald", sans-serif;
+ 
+}
