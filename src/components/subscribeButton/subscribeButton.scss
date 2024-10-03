@@ -1,0 +1,36 @@
+.subscribe-btn
+{
+    background: none;
+    padding: 1rem;
+    border: 1px solid  rgb(123, 123, 123);;
+    border-radius: 4rem 10rem;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: .6rem;
+    box-shadow: 2px 6px rgb(37, 36, 36);
+    margin-top: .5rem;
+}
+  
+.gradient
+{
+    background: linear-gradient(90deg, rgb(173, 118, 127), rgb(109, 154, 193), rgb(61, 112, 214), rgb(133, 185, 216), rgb(158, 51, 35),);
+    background-size: 400%;
+    animation: gradient-animation 2s ease forwards; 
+}
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 100%;
+    }
+  }
+  
+.subscribed
+{
+    background-color:none;
+    color: white;
+}
+  
