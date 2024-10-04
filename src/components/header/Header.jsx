@@ -1,6 +1,6 @@
 import './header.scss';
-import hair2 from '../../assets/1.png';
-import hair3 from '../../assets/2.png'
+import hair2 from '../../assets/1.webp';
+import hair3 from '../../assets/2.webp'
 import FixedContainer from '../fixedContainer/FixedContainer';
 import SubscribeButton from '../subscribeButton/SubscribeButton';
 

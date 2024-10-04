@@ -8,11 +8,8 @@
 body 
 {
   overflow-x: hidden;
-  background: rgb(19, 19, 19); 
   color: rgb(224, 224, 224);
-  background-color: #171717;
   background-color: #000000;
-  background-image: url("https://www.transparenttextures.com/patterns/outlets.png");
   font-family: "Oswald", sans-serif;
  
 }
