@@ -7,9 +7,11 @@ export default defineConfig({
   plugins: [
     react(),
     viteImagemin({
-      webp: {
-        quality: 80,
-      },
+      gifsicle: { optimizationLevel: 7 },
+      optipng: { optimizationLevel: 7 },
+      mozjpeg: { quality: 80 },
+      pngquant: { quality: [0.65, 0.9], speed: 4 },
+      webp: { quality: 80 },
     }),
   ],
 })
