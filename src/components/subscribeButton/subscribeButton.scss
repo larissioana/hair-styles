@@ -10,11 +10,12 @@
     margin-top: .6rem;
     box-shadow: 2px 6px rgb(37, 36, 36);
     margin-top: .5rem;
+    letter-spacing: .1rem;
 }
   
 .gradient
 {
-    background: linear-gradient(90deg, rgb(173, 118, 127), rgb(109, 154, 193), rgb(164, 179, 210), rgb(133, 185, 216), rgb(158, 51, 35),);
+    background: linear-gradient(90deg, #7D3017, #8D5242, #470A03, #465866, #1E3E5B, #5A6A76);
     background-size: 400%;
     animation: gradient-animation 2s ease forwards; 
 }
@@ -30,7 +31,7 @@
   
 .subscribed
 {
-    background-color:none;
+    background-color:rgba(0,0,0,.5);
     color: white;
 }
   
